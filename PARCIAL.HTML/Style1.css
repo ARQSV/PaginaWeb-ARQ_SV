@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parteiconos{
+    height: 120px;
+    width: 100%;
+    background: white;
+}
+
+.parteiconos h1{
+    position: absolute;
+    top:30px;
+    left: 200px;
+
+}
+
+.parteiconos h2{
+    position: absolute;
+    top:36px;
+    left: 1250px;
+    font-size: 25px;
+
+}
+
+.parteiconos h3{
+    position: absolute;
+    top:36px;
+    left: 1130px;
+    font-size: 25px;
+
+}
+
+.parteiconos button{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background: transparent;
+    gap: .65rem;
+}
+
+.parteiconos #icono{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    position: absolute;
+    top: 7px;
+    left: 500px;
+
+}
+
+#icono i{
+    position: absolute;
+    top: 25px;
+    left: 900px;
+    background-color: white;
+}
+
+#icono img{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    right: 400px;
+}
+
+#img img{
+    position: absolute;
+    top: 100px;
+    height: 800px;
+    width: 100%;
+
+    
+}
+
+#img h2{
+    position: absolute;
+    top: 300px;
+    left: 690px;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#img h1{
+    position: absolute;
+    top: 385px;
+    left: 763px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imginfo{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    top: 900px;
+}
+
+.imginfo #imagen1{
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 70px;
+    left: 1000px;
+    
+}
+
+.imagenA h1{
+    font-size: 50px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    
+}
+
+.imagenA #parrafo{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    height: 500px;
+    width: 500px;
+    font-size: 20px;
+    position: absolute;
+    top: 180px;
+    left: 400px;
+
+}
+
+#objetoa{
+    height: 350px;
+    width: 350px;
+    background-color: brown;
+    border-radius: 20px;
+    position: absolute;
+    top: 900px;
+    left: 160px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
+    
+}
+
+#objetoa img{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+
+} 
+
+#objetoa p{
+    font-size: 20px;
+    position: absolute;
+    top: 370px;
+    text-align: justify;
+}
+
+#objetoa :hover{
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+
+#objetob{
+    height: 350px;
+    width: 350px;
+    background-color: brown;
+    border-radius: 20px;
+    position: absolute;
+    top: 900px;
+    left: 560px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
+    
+}
+
+#objetob img{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+
+}
+
+#objetob p{
+    font-size: 20px;
+    position: absolute;
+    top: 370px;
+    text-align: justify;
+}
+
+#objetob :hover{
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+
+#objetoc{
+    height: 350px;
+    width: 350px;
+    background-color: brown;
+    border-radius: 20px;
+    position: absolute;
+    top: 900px;
+    left: 960px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
+    
+}
+
+#objetoc p{
+    font-size: 20px;
+    position: absolute;
+    top: 370px;
+    text-align: justify;
+}
+
+#objetoc img{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+
+}  
+
+#objetoc :hover{
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+
+#objetod{
+    height: 350px;
+    width: 350px;
+    background-color: brown;
+    border-radius: 20px;
+    position: absolute;
+    top: 900px;
+    left: 1360px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
+    
+}
+
+#objetod p{
+    font-size: 20px;
+    position: absolute;
+    top: 370px;
+    text-align: justify;
+}
+
+#objetod img{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+}  
+
+#objetod :hover{
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+#imagenes h1{
+    font-size: 50px;
+    position: absolute;
+    left: 850px;
+    top: -10px;
+    
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 1600px;
+}
+
+.box{
+    flex: 1;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 8px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.20);
+    line-height: 0;
+    transition: all 500ms;
+}
+
+.box > img{
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover;
+    transition: all 500ms;
+}
+
+.box > span{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 1.8;
+}
+
+.box:hover{
+    flex: 50%;
+}
+
+.box:hover > img{
+    width: 100%;
+    height: 100%;
+}
+
+

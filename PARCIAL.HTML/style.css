@@ -1,0 +1,1169 @@
+*{
+    padding: auto;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(155, 192, 169);
+}
+.inicio .abajo.foto.name.wrapper nav ul li a {
+    color: white;
+}
+.foto video{
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    
+}
+
+
+
+button{
+    position: absolute;
+    left: 1500px;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border: 0; 
+    background: transparent;
+    gap: .65rem;
+    color: white;
+}
+
+button > div{
+    background: rgb(255, 255, 255);
+    height: 4px;
+    width: 100%;
+    border-radius: 9px;
+    transition: all.5s;
+    transform-origin: left;
+    display: flex;
+}
+
+button:hover div:first-child{
+    transform: rotate(45deg);
+}
+
+button:hover div:nth-child(2){
+    opacity: 0;
+}
+
+button:hover div:last-child{
+    transform: rotate(-45deg);
+}
+.name h3{
+    position: absolute;
+    left: 400px;
+    top: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.name h3:hover{
+    color: #1d9126;
+    cursor: pointer;
+}
+
+
+.wrapper {
+    position: absolute;
+    left: 250px;
+    top: 35px;
+	width: 1170px;
+	margin: 0 auto;
+}
+.wrapper i:hover{
+    transform: translateY(-3px);scale: (2.05);
+    
+    filter: none;
+}
+header {
+    
+	height: 60px;
+	background: #ffffff;
+	padding: 0 50px;
+}
+
+nav {
+	width: 68%;
+	float: right;
+    color: white;
+}
+nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	display: inline-block
+}
+nav ul li a {
+    color: rgb(2, 1, 1);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Roboto;
+    font-size: 35px;
+}
+nav ul li i{
+    color: rgb(255, 254, 254);
+
+} 
+
+.letras{
+    position: relative;
+    width: 1000px;
+    left: 450px;
+    margin-top: -650px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 30px;
+    background-color: rgb(10, 5, 5);
+}
+
+.letras:hover{
+    color: rgb(204, 147, 147);
+}
+
+.letras h2{
+    font-size: 25px;
+}
+
+.lugares h1{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    width: 800px;
+    font-family: Roboto;
+    margin-top: 500px;
+    left: 900px;
+    top: 700px;
+    font-size:  60px;;
+}
+
+.lugares #img2{
+   
+    position: relative;
+    height: 550px;
+    width: 950px;
+    left: 100px;
+    top: 530px;
+    margin-top: 100px;
+    clip-path: inset(5% 20% 15% 10%);
+
+    
+}
+
+.lugares p{
+    position: relative;
+    font-weight: bold;
+    height: 50px;
+    width: 600px;
+    left: 400px;
+    top: 530px;
+    font-weight: 100;
+    font-size: 17px;
+    font-family: Roboto;
+    color: rgb(29, 121, 121);
+}
+.lugares p1{
+    position: relative;
+    height: 50px;
+    font-weight: bold;
+    width: 600px;
+    left: 400px;
+    top: 510px;
+    font-size: 22px;
+    font-family: Roboto;
+}
+
+.lugares p2{
+    position: absolute;
+    height: 50px;
+    width: 800px;
+    left: 900px;
+    top: 1400px;
+    font-size: 20px;
+    opacity: 0.6;
+    font-family: Roboto;
+    text-align: justify;
+    line-height : 35px;
+    
+}
+
+.lugar2{
+    padding: auto;
+}
+.lugar2 #img3{
+    position: relative;
+    height: 500px;
+    width: 700px;
+    margin-top: 50px;
+    top: 500px;
+    left: -80px;
+    clip-path: inset(5% 20% 15% 10%); 
+}
+#cuadrorojo{
+    position: relative;
+    height: 401px;
+    width: 510px;
+    background: rgb(216, 54, 54);
+    left: 460px;
+    top: 20px;
+}
+#cuadrorojo i{
+    position: relative;
+    left: 230px;
+    top: 130px;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+#cuadrorojo h1{
+    position: relative;
+    color: white;
+    left: 130px;
+    top: 150px;
+    font-family: Roboto;
+}
+#cuadroblanco{
+    position: relative;
+    height: 401px;
+    width: 505px;
+    background: rgb(255, 255, 255);
+    left: 1400px;
+    top: -380px;
+}
+
+#cuadroblanco i{
+    position: relative;
+    left: 230px;
+    top: 130px;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(10, 5, 5);
+
+}
+#cuadroblanco h1{
+    position: relative;
+    width: 300px;
+    color: rgb(7, 3, 3);
+    left: 100px;
+    top: 150px;
+    text-align: center;
+    font-family: Roboto;
+}
+#cuadronegro{
+    position: relative;
+    height: 400px;
+    width: 970px;
+    background: rgb(255, 255, 255);
+    left: 0px;
+    top: -385px;
+}
+
+#cuadronegro i{
+    position: relative;
+    left: 400px;
+    top: 50px;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+
+}
+#cuadronegro h1{
+    position: relative;
+    width: 300px;
+    color: rgb(29, 29, 87);
+    left: 280px;
+    top: 70px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+#cuadronegro h2{
+    position: relative;
+    opacity: 0.7;
+    -moz-transition: opacity .25s linear;
+    -o-transition: opacity .25s linear;
+    -webkit-transition: opacity .25s linear;
+    transition: opacity .25s linear; 
+    width: 800px;
+    color: rgb(15, 7, 7);
+    left: 50px;
+    top: 100px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+#cuadroamarillo{
+    position: absolute;
+    height: 400px;
+    width: 935px;
+    background-image:url("6.jpg");
+    left: 970px;
+    top: 2149px;
+}
+
+#cuadroamarillo i{
+    position: relative;
+    left: 230px;
+    top: 130px;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(3, 2, 2);
+
+}
+#cuadroamarillo h1{
+    position: relative;
+    width: 300px;
+    color: rgb(6, 2, 2);
+    left: 100px;
+    top: 150px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+#cuadro1{
+    position: absolute;
+    height: 400px;
+    width: 935px;
+    background-color: #db435f;
+    left: 970px;
+    top: 2549px;
+}
+#cuadro1 h1{
+    font-family: roboto;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+#cuadro2{
+    position: absolute;
+    height: 400px;
+    width: 970px;
+    background-image: url("7.jpg");
+    left: 0px;
+    top: 2549px;
+}
+
+.lugar2 p{
+    position: relative;
+    font-weight: bold;
+    height: 50px;
+    width: 600px;
+    left: 800px;
+    top: 250px;
+    font-size: 17px;
+    font-family: Roboto;
+    color: rgb(29, 121, 121);
+}
+.lugar2 p1{
+    position: relative;
+    height: 50px;
+    font-weight: bold;
+    width: 600px;
+    left: 800px;
+    top: 230px;
+    font-size: 22px;
+    font-family: Roboto;
+}
+
+.lugar2 p2{
+    position: absolute;
+    height: 50px;
+    width: 700px;
+    left: 800px;
+    top: 1800px;
+    font-size: 17px;
+    opacity: 0.6;
+    font-family: Roboto;
+    
+}
+.lugar3 #img3{
+    position: relative;
+    height: 497px;
+    width: 640px;
+    left: 905px;
+    top: -1307px;
+    margin-top: 100px;
+    clip-path: inset(5% 20% 15% 10%);
+}
+.lugar3 p{
+    position: relative;
+    font-weight: bold;
+    height: 50px;
+    width: 600px;
+    left: 400px;
+    top: 230px;
+    font-size: 17px;
+    font-family: Roboto;
+    color: rgb(29, 121, 121);
+}
+.lugar3 p1{
+    position: relative;
+    height: 50px;
+    font-weight: bold;
+    width: 600px;
+    left: 400px;
+    top: 210px;
+    font-size: 22px;
+    font-family: Roboto;
+}
+
+.lugar3 p2{
+    position: absolute;
+    height: 50px;
+    width: 700px;
+    left: 400px;
+    top: 2300px;
+    font-size: 17px;
+    opacity: 0.6;
+    font-family: Roboto; 
+}
+
+.poster{
+    position: relative;
+    width: 100%;
+    height:500px;
+    top: 200px;
+    background-image: url("4.jpg");
+    clip-path: inset(36% 0 0 0);
+
+}
+
+.poster p{
+    position: relative;
+    font-weight: bold;
+    height: 50px;
+    width: 600px;
+    left: 400px;
+    top: 230px;
+    font-size: 20px;
+    font-family: Roboto;
+    color: rgb(22, 230, 230);
+}
+.poster p1{
+    position: absolute;
+    height: 100px;
+    font-weight: bold;
+    width: 700px;
+    left: 400px;
+    top: 300px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Roboto;
+    text-align: justify;
+}
+
+#btn {
+    position: relative;
+    width: 300px;
+    top: 200px;
+    left: 1500px;
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+}
+
+.conteo i{
+    top: 500px;
+    left: 200px;
+    position: relative;
+    text-decoration: none;
+    padding: 5px 150px;
+    font-size: 50px;
+    box-shadow: 0.2s;
+    color: #0e1b57;
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: .2s;
+    background-color: #dddcdc;
+    border-radius: 10px;
+    line-height: 250px;
+    margin: 0 10px;
+}
+
+.conteo i:hover{
+    transform: translateY(-15px);scale: (2.05);
+    
+    filter: none;
+}
+
+.final{
+    position: relative;
+    background: rgb(35, 37, 44);
+    top: 300px;
+    height: 900px;
+    width: 100%;
+    clip-path: inset(56% 0 0 0);
+}
+#letritas{
+    position: absolute;
+    color: #55acee;
+    font-family: roboto;
+    font-size: 12px;
+    top: 550px;
+    left: 500px;
+}
+#letritas h2{
+    margin-top: 30px;
+}
+#letritas p{
+    color: white;
+}
+#letritas h3{
+    margin-top: 10px;
+}
+#letritas p1{
+    color: white;
+}
+#letritas h4{
+    margin-top: 10px;
+}
+#letritas p2{
+    color: white;
+}
+#letritas h5{
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    left: 500px;
+    margin-top: -170px;
+}
+#box p3{
+    position: relative;
+    left: -100px;
+    top: -40px;
+    font-size: 20px;
+
+}
+
+#box input{
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    width: 300px;
+    left: 500px;
+    top: -100px;
+}
+
+input[type="text"]
+{
+    position: absolute;
+    background: #fff;
+    width: 540px;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"]
+{
+    position: absolute;
+    border-radius: 0 25px 25px 0;
+    width: 100px;
+    height: 50px;
+}
+
+.conteo{
+    position: relative;
+    top: -200px;
+}
+
+.conteo h1{
+    position: absolute;
+    font-family: Roboto;
+    margin-top: 440px;
+    font-size: 15px;
+    left: 300px;
+    color: rgb(0, 0, 0);
+}
+
+.conteo h2{
+    position: absolute;
+    font-family: Roboto;
+    margin-top: 440px;
+    font-size: 15px;
+    left: 640px;
+    color: rgb(0, 0, 0);
+}
+
+.conteo h3{
+    position: absolute;
+    font-family: Roboto;
+    margin-top: 440px;
+    font-size: 15px;
+    left: 1010px;
+    color: rgb(0, 0, 0);
+}
+
+.conteo h4{
+    position: absolute;
+    font-family: Roboto;
+    margin-top: 440px;
+    font-size: 15px;
+    left: 1420px;
+    color: rgb(0, 0, 0);
+}
+
+.container-bar{
+    position: fixed;
+	width: 100%;
+	max-width: 50px;
+	left: 0;
+	top: 25%;
+    z-index: 1;
+}
+.container-bar a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	position: relative;
+	transition: all 500ms ease;
+	color: #fff;
+}
+.container-bar a:hover{
+	background: #1c1c1c;
+}
+.container-bar .fa-home{
+	background: #3b5998;
+	border-radius: 0px 5px 0px 0px;
+}
+.container-bar .fa-ring{
+	background: #e52a23;
+}
+.container-bar .fa-icicles{
+	background: #00acee;
+}
+.container-bar .fa-tree{
+	background: #1d9126;
+}
+.container-bar .fa-gopuram{
+	background: #c8232c;
+	border-radius: 0px 0px 5px 0px;
+}
+.container-bar #title{
+	position: absolute;
+	background: #1c1c1c;
+	padding: 0px 8px;
+	height: 30px;
+    width: 200px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 15px;
+	top:12px; left: 0px;
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
+}
+.container-bar a:hover #title{
+	opacity: 1;
+	visibility: visible;
+	left: 64px;
+}
+.container-bar #title:after{
+	position: absolute;
+	content: '';
+	border-left: 7px solid transparent;
+	border-right: 6px solid #1c1c1c;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	right: 100%;
+	top: 8px;
+}
+#btn-social{
+	display: none;
+}
+.fa-play{
+	cursor: pointer;
+	transition: all 0.4s;
+	font-size: 12px;
+	margin-bottom: 5px;
+	display: inline-block;
+	transform: rotate(180deg);
+	color: #49b0e6;
+}
+#btn-social:checked ~ .fa-play{
+	transform: rotate(0deg);
+}
+.icon-social{
+	transition: all 0.4s;
+	transform: translateX(0%);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+}
+#btn-social:checked ~ .icon-social{
+	transform: translateX(-100%);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.0);
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 2000px;
+}
+
+.container h1{
+    color: #1c1c1c;
+    position: absolute;
+    left: 800px;
+    font-family: Roboto;
+    top: 1200px;
+}
+
+.box{
+    position: relative;
+    top: 1200px;
+    flex: 1;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 8px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.20);
+    line-height: 0;
+    transition: all 500ms;
+    font-family: Roboto;
+}
+
+.box > img{
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover;
+    transition: all 900ms;
+}
+
+.box > span{
+    position: relative;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 1.8;
+    top: 20px;
+}
+
+.box:hover{
+    flex: 20%;
+}
+
+.box:hover > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+:root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --pinterest: #bd081c;
+    --linkedin:#0077b5;
+}
+.redes-conteiner{
+    position: absolute;
+    display: flex;
+    padding: 0%;
+    height:0vh; 
+    left: 1000px;
+    top: 65px;
+    align-items: center;
+    justify-content: center;
+}
+.redes-conteiner ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 80px;
+    height: 70px;
+    text-align: center;
+}
+.redes-conteiner ul li a{
+    display: block;
+    padding: 0 10px;
+    background: rgb(5, 4, 4);
+    color: rgb(173, 184, 241);
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(59, 55, 55, 0.2);
+    transition: .2s;
+    border-radius: 10px;
+}
+.redes-conteiner ul:hover a{
+    filter: blur(2px);
+}
+
+.redes-conteiner ul li a:hover{
+    transform: translateY(-3px);scale: (1.05);
+    box-shadow: 0 5px 5px 0px rgba(235, 235, 235, 0.4);
+    filter: none;
+}
+
+.banerfinal{
+    position: relative;
+    background: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+    top: 800px;
+}
+
+.banerfinal p{
+    position: relative;
+    font-size: 20px;
+    height: auto;
+    width: 300px;
+    font-family: Roboto;
+    top: 45px;
+    left: 400px;
+    color: white;
+    
+}
+
+.banerfinal p2{
+    position: relative;
+    font-size: 20px;
+    height: auto;
+    width: 300px;
+    font-family: Roboto;
+    top: 22px;
+    left: 680px;
+    color: rgb(11, 235, 60);
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #0077b5;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: #1c1c1c;
+}
+
+#nosotros{
+    position: relative;
+    height: 700px;
+    width: 500px;
+    background-image: url("logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+    border-radius: 10px;
+    top: 900px;
+    left: 400px;
+}
+
+#nosotros h1{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 360px;
+    top: -650px;
+    font-size: 35px;
+    font-family: roboto;
+    color: #1c1c1c;
+}
+
+#nosotros h2{
+    position: absolute;
+    height: 300px;
+    width: 450px;
+    left: 520px;
+    top: -200px;
+    font-size: 17px;
+    text-align: justify;
+    font-family: roboto;
+    opacity: 0.5;
+    color: #1c1c1c;
+}
+
+#nosotros h3{
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    left: 520px;
+    top: -260px;
+    font-size:40px;
+    font-family: roboto;
+    color: #ffb20d;
+}
+
+#nosotros h4{
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    left: 200px;
+    top: -590px;
+    text-align: center;
+    font-size: 25px;
+    font-family: roboto;
+    color: #6d0505;
+
+}
+#nosotros h5{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    left: 520px;
+    top: 150px;
+    font-size:15px;
+    font-family: roboto;
+    color: #000000;
+}
+#icons{
+    position: relative;
+    height: 100px;
+    width: 700px;
+    left: 920px;
+    top: 450px;
+    font-size: 50px;
+}
+
+#icons i:hover{
+    transform: translateY(-5px);scale: (1.05);
+    
+    filter: none;
+
+}
+
+#my{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background: rgb(235, 235, 235);
+    top: 800px;
+    font-family: Roboto;
+}
+
+#my h1{
+    position: absolute;
+    top: 30px;
+    left: 870px;
+    color: #000;
+    font-size: 40px;
+
+}
+
+#my h2{
+    position: absolute;
+    top: 100px;
+    left: 520px;
+    color: #000;
+    font-size: 20px;
+    opacity: 0.5;
+    font-family: roboto;
+}
+
+#cuadrado1{
+    position: relative;
+    height: 300px;
+    width: 200px;
+    top: 150px;
+    left: 350px;
+    align-items: center;
+    background-image: url("MOLINA.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    background-size: 200px;
+}
+
+#my p{
+    position: absolute;
+    font-size: 15px;
+    font-family: Roboto;
+    top: 450px;
+    left: 380px;
+    color: #b69c07;
+}
+#my p11{
+    position: absolute;
+    font-size: 15px;
+    font-family: Roboto;
+    top: 475px;
+    left: 395px;
+    color: #000000;
+}
+#my p12{
+    position: absolute;
+    font-size: 15px;
+    font-family: Roboto;
+    top: 475px;
+    left: 650px;
+    color: #000000;
+}
+#my p13{
+    position: absolute;
+    font-size: 15px;
+    font-family: Roboto;
+    top: 475px;
+    left: 900px;
+    color: #000000;
+}
+#my p14{
+    position: absolute;
+    font-size: 15px;
+    font-family: Roboto;
+    top: 475px;
+    left: 1150px;
+    color: #000000;
+}
+#my p15{
+    position: absolute;
+    font-size: 15px;
+    font-family: Roboto;
+    top: 475px;
+    left: 1400px;
+    color: #000000;
+}
+#my p1{
+    position: absolute;
+    font-size: 15px;
+    font-family: Roboto;
+    top: 450px;
+    left: 630px;
+    color: #b69c07;
+}
+
+#my p2{
+    position: absolute;
+    font-size: 15px;
+    font-family: Roboto;
+    top: 450px;
+    left: 900px;
+    color: #b69c07;
+}
+
+#my p3{
+    position: absolute;
+    font-size: 15px;
+    font-family: Roboto;
+    top: 450px;
+    left: 1130px;
+    color: #b69c07;
+}
+
+#my p4{
+    position: absolute;
+    font-size: 15px;
+    font-family: Roboto;
+    top: 450px;
+    left: 1387px;
+    color: #b69c07;
+}
+
+#cuadrado2{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    top: 150px;
+    left: 600px;
+    align-items: center;
+    background-image: url("owen.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: center;
+    background-size: 200px;
+}
+
+#cuadrado3{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    top: 150px;
+    left: 850px;
+    align-items: center;
+    background-image: url("rodry.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    background-size: 200px;
+}
+#cuadrado4{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    top: 150px;
+    left: 1100px;
+    align-items: center;
+    background-image: url("cheto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    background-size: 200px;
+}
+
+#cuadrado5{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    top: 150px;
+    left: 1350px;
+    align-items: center;
+    background-image: url("VIMO.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: center;
+    background-size: 200px;
+}
+
+
+@media (max-width: 1080px) {
+    .foto video{
+        position:relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        object-fit: cover;
+        display: flex;
+    }
+    .name{
+        position: absolute;
+        left: -350px;
+        top: -150px;
+    }
+    
+    .banerfinal{
+        position: relative;
+        display: flex;
+    }
+    .letras{
+        position: relative;
+        top: 500px;
+        height: 100px;
+        width: 500px;
+        font-size: 10px;
+        left: 10px;
+        
+    }
+    .lugares{
+        position: relative;
+        height: 100px;
+        width: 100px;
+    }
+
+  }
+
+
+
+
+
+
+
+
